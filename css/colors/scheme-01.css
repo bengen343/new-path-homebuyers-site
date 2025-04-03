@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #244065;
+  --primary-color-rgb: 36, 64, 101;
+  --secondary-color: #6584a6;
+  --secondary-color-rgb: 101, 132, 166;
+  --tertiary-color: #F4F7FB;
+  --tertiary-color-rgb: 244, 247, 251;
+  --accent-color: #a42420;
+  --accent-color-rgb: 164, 36, 32;
+}
