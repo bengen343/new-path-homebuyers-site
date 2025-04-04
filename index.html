@@ -22,84 +22,8 @@
 
 <body>
     <div id="wrapper">
-        <div class="float-text show-on-scroll">
-            <span><a href="#">Scroll to top</a></span>
-        </div>
-        <div class="scrollbar-v show-on-scroll"></div>
         
-        <!-- page preloader begin -->
-        <div id="de-loader"></div>
-        <!-- page preloader close -->
-
-        <!-- header begin -->
-        <header class="transparent scroll-light has-topbar">
-            <div id="topbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="d-flex justify-content-between xs-hide">
-                                <div class="header-widget d-flex">
-                                    <div class="topbar-widget"><a href="tel:5037190515"><i class="icofont-phone"></i>(503) 719-0515</a></div>
-                                    <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>contact@newpathhomebuyers.com</a></div>
-                                </div>
-
-                                <div class="social-icons">
-                                    <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
-                                    <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <!-- logo begin -->
-                                <div id="logo">
-                                    <a href="index.html">
-                                        <img class="logo-main" src="images/logo/alpaca-round-white.png" width="55" alt="" >
-                                        <img class="logo-scroll" src="images/logo/alpaca-round-white.png" width="55" alt="" >
-                                        <img class="logo-mobile" src="images/logo/logo-round-white.png" width="55" alt="" >
-                                    </a>
-                                </div>
-                                <!-- logo close -->
-                
-                            </div>
-                            <div class="de-flex-col header-col-mid menu_side_area text-center">
-                                <h3 class="logo-main text-white" style="margin-bottom: 0px;">New Path Home Buyers</h3>
-                                <h3 class="logo-scroll" style="margin-bottom: 0px;">New Path Home Buyers</h3>
-                            </div>
-                            <div class="de-flex-col header-col-mid">
-                                <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a></li>
-                                    <li><a class="menu-item" href="products.html">How It Works</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="product-details-new.html">Contact Us</a></li>
-                                            <li><a class="menu-item" href="products.html">How we calculate your offer</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="about.html">Our Company</a></li>
-                                    <li><a class="menu-item" href="projects.html">FAQ</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                            <div class="de-flex-col">
-                                <div class="menu_side_area">          
-                                    <a href="contact.html" class="btn-main">Get Your Cash Offer Now!</a>
-                                    <span id="menu-btn"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- header close -->
+        <nav-bar></nav-bar>
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
 
@@ -766,110 +690,14 @@
                 </div>
             </section>
 
-            <section class="bg-color-2 section-dark pt60 pb60">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <a href="tel:+15037190515" class="d-block relative bg-dark text-light p-2 rounded-10px">
-                                <i class="id-color-2 p-3 rounded-10px fs-56 icofont-phone-circle"></i>
-                                <div class="absolute abs-middle ml90">
-                                    <span>Call to receive your offer</span>
-                                    <h4>(503) 719-0515</h4>
-                                </div>
-                            </a>
-                        </div>                        
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="contact.html" class="d-block relative bg-dark text-white p-2 rounded-10px">
-                                <i class="id-color-2 p-3 rounded-10px fs-56 icofont-calculator"></i>
-                                <div class="absolute abs-middle ml90">
-                                    <span>Request</span>
-                                    <h4>Your Free Cash Offer</h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="projects.html" class="d-block relative bg-dark text-white p-2 rounded-10px">
-                                <i class="id-color-2 p-3 rounded-10px fs-56 icofont-image"></i>
-                                <div class="absolute abs-middle ml90">
-                                    <span>Discover</span>
-                                    <h4>Our Latest Projects</h4>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <my-footer></my-footer>
 
-        </div>
-        <!-- content close -->
-        
-        <!-- footer begin -->
-        <footer class="section-dark">
-            <div class="container">
-                <div class="row gx-5">
-                    <div class="col-lg-4 col-sm-6">
-                        <img src="images/logo/logo-round-white.png" alt="" width="75px">
-                        <div class="spacer-20"></div>
-                        <p>We buy properties in cash, so there’s no need to involve banks or real estate agents. This makes the entire process simpler and faster! If you accept our cash offer, we’ll close at a Title Company on a date that works for you. It’s that easy!</p>
-
-                        <div class="social-icons mb-sm-30">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
-                        <div class="row">
-                            <div class="col-lg-6 col-sm-6">
-                                <div class="widget">
-                                    <h5>Company</h5>
-                                    <ul>                                        
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">How It Works</a></li>
-                                        <li><a href="#">Our Company</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
-                        <div class="widget">
-                            <h5 class="id-color-2">Call for your no-risk cash offer:</h5>
-                            <h2 class="jarallax mb0 wow fadeInUp" data-wow-delay=".2s"><i class="icofont-phone-circle id-color-2"></i> (503) 719-0515</h2>
-
-                            <div class="spacer-20"></div>
-
-                            <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
-                            contact@newpathhomebuyers.com                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="de-flex">
-                                <div class="de-flex-col">
-                                    Copyright 2025 - New Path Home Buyers
-                                </div>
-                                <ul class="menu-simple">
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer close -->
     </div>
     
     <!-- Javascript Files
     ================================================== -->
+    <script src="footer.js"></script>
+    <script src="nav-bar.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/swiper.js"></script>
