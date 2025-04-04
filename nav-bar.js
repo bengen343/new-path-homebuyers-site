@@ -52,20 +52,20 @@ class NavBar extends HTMLElement {
                         
                                     </div>
                                     <div class="de-flex-col header-col-mid menu_side_area text-center">
-                                        <h3 class="logo-main text-white" style="margin-bottom: 0px;">New Path Home Buyers</h3>
-                                        <h3 class="logo-scroll" style="margin-bottom: 0px;">New Path Home Buyers</h3>
+                                        <h3 class="logo-main text-white" style="margin-bottom: 0px;"><a href="index.html" style="color: white;">New Path Home Buyers</a></h3>
+                                        <h3 class="logo-scroll" style="margin-bottom: 0px;"><a href="index.html" style="color: var(--primary-color-rgb);">New Path Home Buyers</a></h3>
                                     </div>
                                     <div class="de-flex-col header-col-mid">
                                         <ul id="mainmenu">
                                             <li><a class="menu-item" href="index.html">Home</a></li>
                                             <li><a class="menu-item" href="how.html">How It Works</a></li>
-                                            <li><a class="menu-item" href="about.html">Our Company</a></li>
-                                            <li><a class="menu-item" href="projects.html">FAQ</a>
+                                            <li><a class="menu-item" href="about.html">Our Company</a>
                                                 <ul>
-                                                    <li><a class="menu-item" href="product-details-new.html">Contact Us</a></li>
-                                                    <li><a class="menu-item" href="products.html">How we calculate your offer</a></li>
+                                                    <li><a class="menu-item" href="about.html">About Us</a></li>
+                                                    <li><a class="menu-item" href="projects.html">Projects</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a class="menu-item" href="faq.html">FAQ</a></li>
                                             <li><a class="menu-item" href="contact.html">Contact</a></li>
                                         </ul>
                                     </div>
