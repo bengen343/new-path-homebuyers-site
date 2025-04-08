@@ -28,7 +28,7 @@ class MyFooter extends HTMLElement {
                                 <i class="id-color-2 p-3 rounded-10px fs-56 icofont-image"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Discover</span>
-                                    <h4>Our Latest Projects</h4>
+                                    <h4>Our Latest Project</h4>
                                 </div>
                             </a>
                         </div>
@@ -60,11 +60,11 @@ class MyFooter extends HTMLElement {
                                 <div class="widget">
                                     <h5>Company</h5>
                                     <ul>                                        
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">How It Works</a></li>
-                                        <li><a href="#">Our Company</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="how.html">How It Works</a></li>
+                                        <li><a href="about.html">Our Company</a></li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>

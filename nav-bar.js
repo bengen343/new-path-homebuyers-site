@@ -62,7 +62,7 @@ class NavBar extends HTMLElement {
                                             <li><a class="menu-item" href="about.html">Our Company</a>
                                                 <ul>
                                                     <li><a class="menu-item" href="about.html">About Us</a></li>
-                                                    <li><a class="menu-item" href="projects.html">Projects</a></li>
+                                                    <li><a class="menu-item" href="projects.html">Latest Project</a></li>
                                                 </ul>
                                             </li>
                                             <li><a class="menu-item" href="faq.html">FAQ</a></li>
