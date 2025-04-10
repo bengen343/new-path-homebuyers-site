@@ -2917,12 +2917,11 @@ header.header-light .h-phone span{
 }
 
 .success {
-  display: none;
   color: #96c346;
   margin-top: 30px;
   clear: both;
-  padding-top: 20px;
-  padding: 20px;
+  padding-top: 5px;
+  padding: 5px;
   background: rgba(150, 195, 70, .1);
   border: solid 1px #96c346;
 }
