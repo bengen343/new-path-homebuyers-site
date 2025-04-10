@@ -100,6 +100,21 @@ class MyFooter extends HTMLElement {
                     </div>
                 </div>
             </div>
+
+            <!-- VBOUT Tracking Code -->
+            <script type="text/javascript">
+                /* embed code starts */
+                var _vbset = _vbset || [];
+                _vbset.push(['_account', 'VBT-16704-14864']);
+                _vbset.push(['_domain', 'https://www.newpathhomebuyers.com']);
+
+                (function() {
+                    var vbt = document.createElement('script'); vbt.type = 'text/javascript'; vbt.async = true; 
+                    vbt.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.vbt.io/tracker?_account='+_vbset[0][1]+'&_domain='+_vbset[1][1];var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vbt, s);
+                })();
+                /* embed code ends */
+            </script>
+            <!-- End VBOUT Tracking Code -->
         </footer>
         <!-- footer close -->
         `;
