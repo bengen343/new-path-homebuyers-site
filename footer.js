@@ -49,8 +49,8 @@ class MyFooter extends HTMLElement {
                         <p>We buy properties in cash, so there’s no need to involve banks or real estate agents. This makes the entire process simpler and faster! If you accept our cash offer, we’ll close at a Title Company on a date that works for you. It’s that easy!</p>
 
                         <div class="social-icons mb-sm-30">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/NewPathHomes/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/newpathhomebuyers" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>

@@ -25,9 +25,9 @@ class NavBar extends HTMLElement {
                                         </div>
 
                                         <div class="social-icons">
-                                            <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                            <a href="https://www.facebook.com/NewPathHomes" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                            <a href="https://www.instagram.com/newpathhomebuyers" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                             <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
-                                            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                         </div>
                                     </div>
                                 </div>
