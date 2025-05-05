@@ -78,7 +78,7 @@ class MyFooter extends HTMLElement {
                             <div class="spacer-20"></div>
 
                             <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
-                            contact@newpathhomebuyers.com                            
+                            <a href="mailto:Zach@NewPathHomeBuyers.com">Zach@NewPathHomeBuyers.com</a><br><a href="mailto:Jordan@NewPathHomeBuyers.com">Jordan@NewPathHomeBuyers.com</a>                           
                         </div>
                     </div>
                 </div>

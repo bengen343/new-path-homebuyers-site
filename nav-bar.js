@@ -21,7 +21,7 @@ class NavBar extends HTMLElement {
                                     <div class="d-flex justify-content-between xs-hide">
                                         <div class="header-widget d-flex">
                                             <div class="topbar-widget"><a href="tel:5037190515"><i class="icofont-phone"></i>(503) 719-0515</a></div>
-                                            <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>contact@newpathhomebuyers.com</a></div>
+                                            <div class="topbar-widget"><i class="icofont-envelope"></i><a href="mailto:Zach@NewPathHomeBuyers.com">Zach@NewPathHomeBuyers.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;<i class="icofont-envelope"></i><a href="mailto:Jordan@NewPathHomeBuyers.com">Jordan@NewPathHomeBuyers.com</a></div>
                                         </div>
 
                                         <div class="social-icons">
