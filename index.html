@@ -689,6 +689,42 @@
                                         </div>
                                     </fieldset>
                                 </form>
+                                <script>
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        const form = document.getElementById('vboutEmbedForm-158603');
+
+                                        form.addEventListener('submit', function(event) {
+                                            // Prevent the default form submission behavior (for demonstration)
+                                            // event.preventDefault();
+
+                                            // Create an object to store the form data
+                                            const formData = {};
+
+                                            // Get all the form elements
+                                            const formElements = form.elements;
+
+                                            // Iterate through the form elements and populate the formData object
+                                            for (let i = 0; i < formElements.length; i++) {
+                                            const element = formElements[i];
+                                            if (element.name) { // Only process elements with a 'name' attribute
+                                                formData[element.name] = element.value;
+                                            }
+                                            }
+
+                                            // Push the formData object to the dataLayer
+                                            window.dataLayer = window.dataLayer || [];
+                                            window.dataLayer.push({
+                                            'event': 'form_data', // A custom event name for GTM
+                                            'formData': formData
+                                            });
+
+                                            console.log('Data pushed to dataLayer:', formData);
+
+                                            // Optionally, you can now proceed with the actual form submission
+                                            // form.submit();
+                                        });
+                                        });
+                                </script>
                             </div>
                         </div>
                         </div>
